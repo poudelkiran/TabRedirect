@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46762EC62CBD6C50003CBA07 /* TabRedirect Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 46762EC52CBD6C50003CBA07 /* TabRedirect Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46762EB02CBD6C50003CBA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46762E8B2CBD6C4F003CBA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46762E922CBD6C4F003CBA07;
+			remoteInfo = TabRedirect;
+		};
+		46762EBA2CBD6C50003CBA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46762E8B2CBD6C4F003CBA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46762E922CBD6C4F003CBA07;
+			remoteInfo = TabRedirect;
+		};
+		46762EC72CBD6C50003CBA07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46762E8B2CBD6C4F003CBA07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46762EC42CBD6C50003CBA07;
+			remoteInfo = "TabRedirect Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46762EE52CBD6C50003CBA07 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				46762EC62CBD6C50003CBA07 /* TabRedirect Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46762E932CBD6C4F003CBA07 /* TabRedirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabRedirect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46762EAF2CBD6C50003CBA07 /* TabRedirectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabRedirectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46762EB92CBD6C50003CBA07 /* TabRedirectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabRedirectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46762EC52CBD6C50003CBA07 /* TabRedirect Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TabRedirect Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		46762EDF2CBD6C50003CBA07 /* Exceptions for "TabRedirect Extension" folder in "TabRedirect Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 46762EC42CBD6C50003CBA07 /* TabRedirect Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		46762E952CBD6C4F003CBA07 /* TabRedirect */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabRedirect;
+			sourceTree = "<group>";
+		};
+		46762EB22CBD6C50003CBA07 /* TabRedirectTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabRedirectTests;
+			sourceTree = "<group>";
+		};
+		46762EBC2CBD6C50003CBA07 /* TabRedirectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabRedirectUITests;
+			sourceTree = "<group>";
+		};
+		46762EC92CBD6C50003CBA07 /* TabRedirect Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				46762EDF2CBD6C50003CBA07 /* Exceptions for "TabRedirect Extension" folder in "TabRedirect Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "TabRedirect Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46762E902CBD6C4F003CBA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46762EAC2CBD6C50003CBA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46762EB62CBD6C50003CBA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46762EC22CBD6C50003CBA07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46762E8A2CBD6C4F003CBA07 = {
+			isa = PBXGroup;
+			children = (
+				46762E952CBD6C4F003CBA07 /* TabRedirect */,
+				46762EB22CBD6C50003CBA07 /* TabRedirectTests */,
+				46762EBC2CBD6C50003CBA07 /* TabRedirectUITests */,
+				46762EC92CBD6C50003CBA07 /* TabRedirect Extension */,
+				46762E942CBD6C4F003CBA07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46762E942CBD6C4F003CBA07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46762E932CBD6C4F003CBA07 /* TabRedirect.app */,
+				46762EAF2CBD6C50003CBA07 /* TabRedirectTests.xctest */,
+				46762EB92CBD6C50003CBA07 /* TabRedirectUITests.xctest */,
+				46762EC52CBD6C50003CBA07 /* TabRedirect Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46762E922CBD6C4F003CBA07 /* TabRedirect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46762EE62CBD6C50003CBA07 /* Build configuration list for PBXNativeTarget "TabRedirect" */;
+			buildPhases = (
+				46762E8F2CBD6C4F003CBA07 /* Sources */,
+				46762E902CBD6C4F003CBA07 /* Frameworks */,
+				46762E912CBD6C4F003CBA07 /* Resources */,
+				46762EE52CBD6C50003CBA07 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46762EC82CBD6C50003CBA07 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46762E952CBD6C4F003CBA07 /* TabRedirect */,
+			);
+			name = TabRedirect;
+			packageProductDependencies = (
+			);
+			productName = TabRedirect;
+			productReference = 46762E932CBD6C4F003CBA07 /* TabRedirect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46762EAE2CBD6C50003CBA07 /* TabRedirectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46762EE92CBD6C50003CBA07 /* Build configuration list for PBXNativeTarget "TabRedirectTests" */;
+			buildPhases = (
+				46762EAB2CBD6C50003CBA07 /* Sources */,
+				46762EAC2CBD6C50003CBA07 /* Frameworks */,
+				46762EAD2CBD6C50003CBA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46762EB12CBD6C50003CBA07 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46762EB22CBD6C50003CBA07 /* TabRedirectTests */,
+			);
+			name = TabRedirectTests;
+			packageProductDependencies = (
+			);
+			productName = TabRedirectTests;
+			productReference = 46762EAF2CBD6C50003CBA07 /* TabRedirectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46762EB82CBD6C50003CBA07 /* TabRedirectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46762EEC2CBD6C50003CBA07 /* Build configuration list for PBXNativeTarget "TabRedirectUITests" */;
+			buildPhases = (
+				46762EB52CBD6C50003CBA07 /* Sources */,
+				46762EB62CBD6C50003CBA07 /* Frameworks */,
+				46762EB72CBD6C50003CBA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46762EBB2CBD6C50003CBA07 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				46762EBC2CBD6C50003CBA07 /* TabRedirectUITests */,
+			);
+			name = TabRedirectUITests;
+			packageProductDependencies = (
+			);
+			productName = TabRedirectUITests;
+			productReference = 46762EB92CBD6C50003CBA07 /* TabRedirectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		46762EC42CBD6C50003CBA07 /* TabRedirect Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46762EE02CBD6C50003CBA07 /* Build configuration list for PBXNativeTarget "TabRedirect Extension" */;
+			buildPhases = (
+				46762EC12CBD6C50003CBA07 /* Sources */,
+				46762EC22CBD6C50003CBA07 /* Frameworks */,
+				46762EC32CBD6C50003CBA07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				46762EC92CBD6C50003CBA07 /* TabRedirect Extension */,
+			);
+			name = "TabRedirect Extension";
+			packageProductDependencies = (
+			);
+			productName = "TabRedirect Extension";
+			productReference = 46762EC52CBD6C50003CBA07 /* TabRedirect Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46762E8B2CBD6C4F003CBA07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					46762E922CBD6C4F003CBA07 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					46762EAE2CBD6C50003CBA07 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 46762E922CBD6C4F003CBA07;
+					};
+					46762EB82CBD6C50003CBA07 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 46762E922CBD6C4F003CBA07;
+					};
+					46762EC42CBD6C50003CBA07 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 46762E8E2CBD6C4F003CBA07 /* Build configuration list for PBXProject "TabRedirect" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46762E8A2CBD6C4F003CBA07;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 46762E942CBD6C4F003CBA07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46762E922CBD6C4F003CBA07 /* TabRedirect */,
+				46762EAE2CBD6C50003CBA07 /* TabRedirectTests */,
+				46762EB82CBD6C50003CBA07 /* TabRedirectUITests */,
+				46762EC42CBD6C50003CBA07 /* TabRedirect Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46762E912CBD6C4F003CBA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46762EAD2CBD6C50003CBA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46762EB72CBD6C50003CBA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46762EC32CBD6C50003CBA07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46762E8F2CBD6C4F003CBA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46762EAB2CBD6C50003CBA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46762EB52CBD6C50003CBA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46762EC12CBD6C50003CBA07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46762EB12CBD6C50003CBA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46762E922CBD6C4F003CBA07 /* TabRedirect */;
+			targetProxy = 46762EB02CBD6C50003CBA07 /* PBXContainerItemProxy */;
+		};
+		46762EBB2CBD6C50003CBA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46762E922CBD6C4F003CBA07 /* TabRedirect */;
+			targetProxy = 46762EBA2CBD6C50003CBA07 /* PBXContainerItemProxy */;
+		};
+		46762EC82CBD6C50003CBA07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46762EC42CBD6C50003CBA07 /* TabRedirect Extension */;
+			targetProxy = 46762EC72CBD6C50003CBA07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46762EE12CBD6C50003CBA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TabRedirect Extension/TabRedirect_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TabRedirect Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TabRedirect Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TabRedirect.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		46762EE22CBD6C50003CBA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "TabRedirect Extension/TabRedirect_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TabRedirect Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TabRedirect Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TabRedirect.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		46762EE32CBD6C50003CBA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46762EE42CBD6C50003CBA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		46762EE72CBD6C50003CBA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabRedirect/TabRedirect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TabRedirect;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TabRedirect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		46762EE82CBD6C50003CBA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TabRedirect/TabRedirect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TabRedirect;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TabRedirect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		46762EEA2CBD6C50003CBA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TabRedirectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabRedirect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabRedirect";
+			};
+			name = Debug;
+		};
+		46762EEB2CBD6C50003CBA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TabRedirectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabRedirect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabRedirect";
+			};
+			name = Release;
+		};
+		46762EED2CBD6C50003CBA07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TabRedirectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TabRedirect;
+			};
+			name = Debug;
+		};
+		46762EEE2CBD6C50003CBA07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.TabRedirectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TabRedirect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46762E8E2CBD6C4F003CBA07 /* Build configuration list for PBXProject "TabRedirect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46762EE32CBD6C50003CBA07 /* Debug */,
+				46762EE42CBD6C50003CBA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46762EE02CBD6C50003CBA07 /* Build configuration list for PBXNativeTarget "TabRedirect Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46762EE12CBD6C50003CBA07 /* Debug */,
+				46762EE22CBD6C50003CBA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46762EE62CBD6C50003CBA07 /* Build configuration list for PBXNativeTarget "TabRedirect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46762EE72CBD6C50003CBA07 /* Debug */,
+				46762EE82CBD6C50003CBA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46762EE92CBD6C50003CBA07 /* Build configuration list for PBXNativeTarget "TabRedirectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46762EEA2CBD6C50003CBA07 /* Debug */,
+				46762EEB2CBD6C50003CBA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46762EEC2CBD6C50003CBA07 /* Build configuration list for PBXNativeTarget "TabRedirectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46762EED2CBD6C50003CBA07 /* Debug */,
+				46762EEE2CBD6C50003CBA07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46762E8B2CBD6C4F003CBA07 /* Project object */;
+}
