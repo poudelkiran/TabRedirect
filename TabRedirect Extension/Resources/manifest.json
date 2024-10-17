@@ -2,8 +2,8 @@
     "manifest_version": 3,
     "default_locale": "en",
 
-    "name": "__MSG_extension_name__",
-    "description": "__MSG_extension_description__",
+    "name": "New Tab Redirect",
+    "description": "Redirects new tab to specific URL",
     "version": "1.0",
 
     "icons": {
@@ -29,5 +29,12 @@
         "default_icon": "images/toolbar-icon.svg"
     },
 
-    "permissions": [ ]
+    "permissions": ["tabs"],
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+      },
+    
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "permissions": ["storage"],
+
 }

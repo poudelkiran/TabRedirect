@@ -1,15 +1,110 @@
-:root {
-    color-scheme: light dark;
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+/* Body styling */
 body {
-    width: 100px;
-    padding: 10px;
-
-    font-family: system-ui;
-    text-align: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f7f9;
+    width: 250px;
 }
 
-@media (prefers-color-scheme: dark) {
-    /* Dark Mode styles go here. */
+/* Container styling */
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.app-name {
+    color: #343a40;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Description styling */
+.description {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Divider styling */
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: #ced4da;
+    margin: 15px 0;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 14px;
+}
+
+/* Input styling */
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    border: 2px solid #ced4da;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Status message styling */
+#status {
+    color: green;
+    margin-top: 15px;
+    font-size: 14px;
 }

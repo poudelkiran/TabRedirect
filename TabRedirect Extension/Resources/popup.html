@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="popup.css">
-    <script type="module" src="popup.js"></script>
+    <title>Options</title>
 </head>
 <body>
-    <strong>Hello World!</strong>
+    <div class="container">
+        <div class="header">
+            <img src="images/icon-512.png" alt="Logo" class="logo">
+            <h1 class="app-name">Tab Redirect</h1>
+        </div>
+        <p class="description">Extension to redirect new tabs to your favorite website.</p>
+        <hr class="divider">
+        <div class="input-group">
+            <label for="url">URL:</label>
+            <input type="text" id="url" placeholder="Enter redirect URL" />
+        </div>
+        <button id="save">Save</button>
+        <div id="status"></div> 
+    </div>
+    <script src="popup.js"></script>
 </body>
 </html>
+
